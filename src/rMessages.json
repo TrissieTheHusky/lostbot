@@ -1,0 +1,11 @@
+{
+	"lostNoPerms": "✘ I do not have the correct permissions to use this command!",
+	"memberNoPerms": "✘ You do not have the correct permissions to use this command!",
+	"cantFindMember": "✘ I could not find that member!",
+	"lostAdminModeration": "✘ I cannot perform a moderation act against Lost Administration!",
+	"provideMemberTo": "✘ You must provide a guild member to",
+	"moderationActOnMod": "✘ I cannot perform a moderation act against server mods!",
+	"provideRoleTo": "✘ Please provide a role for me to",
+	"cantFindRole": "✘ I could not find that role!",
+	"errorInE": "<:lostdnd:668322768995221536> An error occurred in the process of this command. If this persists, please contact the Lost Team:tm:"
+}

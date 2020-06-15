@@ -1,0 +1,25 @@
+{
+	"name": "lost",
+	"version": "1.0.0",
+	"description": "",
+	"main": "bot.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"canvas": "^2.6.1",
+		"discord-emoji-convert": "^1.6.0",
+		"eris-additions": "^1.4.1",
+		"eris-reactions": "^0.1.2",
+		"eventemitter3": "^4.0.0",
+		"events": "^3.1.0",
+		"mathjs": "^6.6.4",
+		"moment": "^2.25.3",
+		"mongoose": "^5.9.10",
+		"pretty-bytes": "^5.3.0",
+		"pretty-ms": "^7.0.0",
+		"seedrandom": "^3.0.5"
+	}
+}
