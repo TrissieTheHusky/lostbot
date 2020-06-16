@@ -4,7 +4,7 @@
 **Lost is a multipurpose Discord bot with features such as Custom commands, Automoderation, and some more. Its a customizable too!**
 
 ## Questions you may have
-**Can I host the bot?** Sure, just [click here for info about how to]()\n
+**Can I host the bot?** Sure, just [click here for info about how to](https://github.com/OfficiallyLost/lostbot/blob/master/README.md#how-to-self-host)\n
 **Can I contribute to the bot?** Yup, just do it on your own fork and it *may* get added!\n
 **Can I be a developer?** Possibly, just contact me on Discord, my username is OfficiallyLost, my ID is 475371795185139712
 
@@ -22,7 +22,7 @@ node src/bot.js
 
 
 ### Links 
-**[Discord Server](https://discord.gg/FWTRPS9)\n
+**[Discord Server](https://discord.gg/FWTRPS9)\
 [Bot Invite](https://discordapp.com/oauth2/authorize?client_id=650136984211292180&scope=bot&permissions=2146958847,)**
 
 If you have any questions, please contact me on Discord, my ID is `475371795185139712`
