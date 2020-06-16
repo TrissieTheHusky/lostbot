@@ -1,8 +1,5 @@
 const Eris = require('eris');
-const {
-	token,
-	monpass
-} = require('./passwords');
+const { token, monpass } = require('./passwords');
 const client = new Eris.Client(token, {
 	getAllUsers: true,
 	maxShards: 4,
@@ -35,4 +32,7 @@ fs.readdirSync('./events/').forEach((dir) => {
 	}
 });
 
-client.connect();
+const connect = async () => {
+	await client.connect();
+};
+connect();
