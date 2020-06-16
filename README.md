@@ -22,7 +22,7 @@ node src/bot.js
 
 
 ### Links 
-**[Discord Server](https://discord.gg/FWTRPS9)\n
-[Bot Invite](https://discordapp.com/oauth2/authorize?client_id=650136984211292180&scope=bot&permissions=2146958847)**
+**[Discord Server](https://discord.gg/FWTRPS9)**
+**[Bot Invite](https://discordapp.com/oauth2/authorize?client_id=650136984211292180&scope=bot&permissions=2146958847)**
 
 If you have any questions, please contact me on Discord, my ID is `475371795185139712`
