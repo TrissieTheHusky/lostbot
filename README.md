@@ -10,6 +10,7 @@
 
 **Can I be a developer?** Possibly, just contact me on Discord, my username is OfficiallyLost, my ID is 475371795185139712
 
+**Where can I find the Dashbords code?** I will not be releasing the code for the dashboard anytime soon. Its in a seperate repository.
 
 ## How to Self-host
 
