@@ -1,12 +1,10 @@
-const GuildModel = require('../../models/Guild');
 module.exports = {
 	name: 'prefix',
 	description: 'Change the prefix of the server or check it',
 	category: 'Administration',
-	aliases: [ 'suffix' ],
+	aliases: [ 'suffix', 'setpredix' ],
 	example: 'prefix a!',
 	usage: 'prefix <prefix>',
-	hidden: false,
 
 	execute: async (message, client, args) => {
 		const oof = require('../../models/Guild');
