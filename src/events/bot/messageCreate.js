@@ -6,7 +6,7 @@ module.exports = async (client, message) => {
 	const guildS = require('../../models/Guild');
 	const { dnd } = require('../../emotes');
 	const { memberNoPerms } = require('../../rMessages');
-	const dookiewords = [];
+	const dookiewords = [ 'fuck', 'cunt', 'retard', 'dick', 'bitch', 'cock' ];
 	let member = await memberS.findOne({ id: message.author.id });
 	if (!member) {
 		member = new memberS({
