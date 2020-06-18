@@ -17,7 +17,6 @@
 * **Create a file called 'passwords.json'. The path should be: `src/passwords.json`. That file should look like:** ```{ "token": "your-token", "monpass": "mongo atlas password (if using Atlas)"}```\n
 * **In the console, do the following** 
 ```js
-npm init 
 npm install
 node src/bot.js
 ```
