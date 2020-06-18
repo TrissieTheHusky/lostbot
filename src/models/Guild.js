@@ -27,7 +27,6 @@ const Guild = Schema({
 		default: []
 	},
 	mod: { roles: [], only: Boolean }
-	//	modrole: { type: [ { roles: { type: Array } } ], default: [] }
 	// responders: { type: [ { name: { type: String }, response: { type: String } } ], default: [] }
 });
 module.exports = model('Guild', Guild);
