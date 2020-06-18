@@ -2,9 +2,10 @@ const Eris = require('eris');
 const { token, monpass } = require('./passwords');
 const client = new Eris.Client(token, {
 	getAllUsers: true,
-	maxShards: 4,
+	maxShards: 2,
 	requestTimeout: 5000,
-	restMode: true
+	restMode: true,
+	defaultImageFormat: 'png'
 });
 
 const db = require('./database/database');
