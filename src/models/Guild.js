@@ -12,14 +12,6 @@ const Guild = Schema({
 	commands: { type: [ { name: { type: String }, response: { type: String } } ], default: [] },
 	mute: { role: String },
 	modules: { enabled: { type: Array }, disabled: { type: Array } },
-	// moderations: [
-	// 	{
-	// 		mute: { user: { type: String }, reason: { type: String }, time: Number }
-	// 	},
-	// 	{
-	// 		kick: { user: { type: String }, mod: { type: String }, reason: { type: String } }
-	// 	}
-	// ],
 	moderations: {
 		type: [
 			{
