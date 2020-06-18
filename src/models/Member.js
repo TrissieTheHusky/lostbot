@@ -1,4 +1,4 @@
-const mongoose = require('mongoose')
+const mongoose = require('mongoose');
 
 const Member = new mongoose.Schema({
 	id: {
@@ -18,21 +18,22 @@ const Member = new mongoose.Schema({
 			}
 		}
 	},
-	modlogs: [{
-		guild: {
-			id: {
-				type: String
-			},
-			kicks: {
-				reason: {
+	modlogs: [
+		{
+			guild: {
+				id: {
 					type: String
 				},
-				mod: {
-					type: String
+				kicks: {
+					reason: {
+						type: String
+					},
+					mod: {
+						type: String
+					}
 				}
 			}
 		}
-
-	}]
+	]
 });
 module.exports = mongoose.model('Member', Member);
