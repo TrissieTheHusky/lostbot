@@ -5,7 +5,24 @@ const client = new Eris.Client(token, {
 	maxShards: 2,
 	requestTimeout: 5000,
 	restMode: true,
-	defaultImageFormat: 'png'
+	defaultImageFormat: 'png',
+	disableEvents: [
+		'INTEGRATION_DELETE',
+		'INTEGRATION_CREATE',
+		'WEBHOOK_DELETE',
+		'WEBHOOK_CREATE',
+		'MESSAGE_UNPIN',
+		'MESSAGE_PIN',
+		'EMOJI_CREATE',
+		'EMOJI_DELETE',
+		'WEBHOOK_UPDATE',
+		'WEBHOOK_DELETE',
+		'WEBHOOK_CREATE',
+		'MEMBER_PRUNE',
+		'MEMBER_MOVE',
+		'MEMBER_DISCONNECT',
+		'MEMBER_BAN_ADD'
+	]
 });
 
 const db = require('./database/database');
