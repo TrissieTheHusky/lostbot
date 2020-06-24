@@ -203,7 +203,7 @@ module.exports = async (client, message) => {
 	}
 
 	try {
-		if (guild.mod.only) {
+		if (guild.mod.only && !message.member.permission.has('manageGuild')) {
 			if (guild.mod.roles.some((e) => message.member.roles.includes(e))) {
 				command.execute(message, client, args);
 			}
