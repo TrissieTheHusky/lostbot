@@ -1,3 +1,5 @@
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/43a7c90907f9457087955bb898c31aef)](https://www.codacy.com/manual/farooqhaseeb49/lostbot?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=OfficiallyLost/lostbot&amp;utm_campaign=Badge_Grade)
+
 # Lost - A Discord Bot
 **Lost is a multipurpose Discord bot.**
 ## What is Lost?
